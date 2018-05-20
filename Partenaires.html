@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link rel="stylesheet" href="partenaires.css" type="text/css">
+    <script src="jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div id="top_nav">
+            <ul class="showing">
+                <li><a href="index.html">Lux SHOWS</a></li>
+                <li><a href="qui.html">Qui Sommes-nous ?</a></li>
+                <li><a href="Partenaires.html">Nos Partenaires</a></li>
+                <li><a href="nous%20contactez.html">Nous Contactez</a></li>
+            </ul>
+            <div class="handle">Menu<button>&#9776;</button></div>
+        </div>
+
+        <img src="qui img/logo.jpg" alt="logo area" class="logo">
+
+        <div id="top_nav2">
+            <ul class="showing2">
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="nosshows.html">Nos Shows</a></li>
+            </ul>
+            <div class="handle2">Menu<button>&#9776;</button></div>
+        </div>
+    </header>
+    <section class="main_side">
+        <article>
+            <h1>Informations bientôt disponible</h1>
+        </article>
+
+    </section>
+
+    <footer class="page_footer">
+
+        <ul>
+            <li><a href="nous%20contactez.html">Nous Contactez </a></li>
+            <li><a href="Partenaires.html">Nos Partenaires</a></li>
+            <li><a href="qui.html">Qui Sommes-nous</a></li>
+            <li><a href="index.html">Lux SHOWS</a>
+                <ul>
+                    <li><a href="nosshows.html">Nos Shows</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html"></a></li>
+        </ul>
+
+        <div class="clear"></div>
+
+        <h3>&copy;2018 Lux SHOWS. Tous Droits Réservés.</h3>
+
+    </footer>
+</div>
+<script>
+    $(".handle").on("click", function(){
+        $("#top_nav").find("ul").toggleClass("showing");
+    });
+</script>
+<script>
+    $(".handle2").on("click", function(){
+        $("#top_nav2").find("ul").toggleClass("showing2");
+    });
+</script>
+</body>
+</html>
